@@ -18,9 +18,7 @@ public class Main {
 		String str = "";
 		String tx1 = null;
 		String tx2 = null;
-	//	Stream st = new Stream();
-		// fList = st.searchFolder("C:/Users/zheleznov/Desktop/in");
-		// read file
+	
 		try (BufferedReader bF = new BufferedReader(new FileReader(fList[0]))) {
 			for (; (str = bF.readLine()) != null;)
 				tx1 = str;
